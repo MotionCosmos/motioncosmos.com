@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bedankt | Motion Cosmos</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/beeldmerk.svg" alt="" width="30" height="24">MOTION<b>COSMOS</b></a>
+    <nav>
+      <a href="index.html#prijzen">Prijzen</a>
+      <a class="lang" href="en/thanks.html" hreflang="en" lang="en" title="English version">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <article class="legal thanks" id="thanks" data-endpoint="https://script.google.com/macros/s/AKfycbwU44Uv4wuJIbIOfIhbV91XySN_4UkLid9wAIwoN8xwoIIRnKi2v82XQ2v1ZDqRvCxIDA/exec" aria-live="polite">
+    <div class="bar"><i></i><i></i><i></i></div>
+    <div data-state="checking">
+      <h1>We controleren je betaling</h1>
+      <p>Een moment geduld.</p>
+    </div>
+    <div data-state="paid" hidden>
+      <h1>Bedankt voor je bestelling!</h1>
+      <p>We hebben je betaling ontvangen: <b data-f="package"></b>, <b data-f="total"></b>. Je ontvangt de factuur, en Sem neemt contact met je op over je video.</p>
+      <p><a class="btn btn-ghost" href="index.html">Terug naar de homepage</a></p>
+    </div>
+    <div data-state="open" hidden>
+      <h1>Je betaling is nog niet afgerond</h1>
+      <p>Heb je de betaling afgebroken, of ging er iets mis? Je kunt het opnieuw proberen. Lukt het niet, mail ons dan op <a href="mailto:sem@motioncosmos.com">sem@motioncosmos.com</a>.</p>
+      <p><a class="btn btn-primary" data-f="retry" href="bestellen.html">Opnieuw betalen</a></p>
+    </div>
+    <div data-state="unknown" hidden>
+      <h1>We kunnen je bestelling niet vinden</h1>
+      <p>Mail ons gerust op <a href="mailto:sem@motioncosmos.com">sem@motioncosmos.com</a>, dan zoeken we het voor je uit.</p>
+    </div>
+  </article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Motion Cosmos</strong><br>Van Slingelandtstraat 5C<br>3135 LL Vlaardingen</p>
+    <p>KvK 42203622<br><a href="mailto:sem@motioncosmos.com">sem@motioncosmos.com</a></p>
+    <p><a href="voorwaarden.html">Voorwaarden</a><br><a href="privacy.html">Privacy</a><br><a href="en/thanks.html" hreflang="en">English</a></p>
+  </div>
+</footer>
+<script src="assets/order.js" defer></script>
+</body>
+</html>
